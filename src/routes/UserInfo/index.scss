@@ -1,0 +1,24 @@
+
+.user-info {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 16px;
+  padding: 8px;
+  background-color: aliceblue;
+
+  &__logo {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+  }
+
+  &__name {
+
+  }
+
+  &__qq {
+    color: gray;
+  }
+}

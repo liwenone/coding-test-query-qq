@@ -1,0 +1,17 @@
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+
+  &__label {
+    margin-right: 10px;
+  }
+
+  &__form-item {
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    font-size: 16px;
+  }
+}
